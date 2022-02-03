@@ -8,8 +8,10 @@ public class Fakultät {
 
     public static int createFakultät(int zahl) {
         int fakultät = 1;
-        for (int i = 1; i <= zahl; i++) {
+        int i = 1;
+        while (i <= zahl) {
             fakultät *= i;
+            i++;
         }
         return fakultät;
 
