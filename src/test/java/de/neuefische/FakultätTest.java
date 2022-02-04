@@ -20,9 +20,9 @@ class FakultätTest {
     @Test
     void facultyZeroShouldBe12() {
         //given
-        int zahl = 12;
+        int person = 12;
         //when
-        int actual = Fakultät.createFakultät(zahl);
+        int actual = Fakultät.createFakultät(person);
         //then
         assertEquals(479001600, actual);
 
